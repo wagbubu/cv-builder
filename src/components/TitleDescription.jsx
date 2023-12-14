@@ -63,7 +63,7 @@ export default function TitleDescription({
       case "education":
         return "University";
       case "experience":
-        return "Company";
+        return "Company (From when - To when)";
       case "skills":
         return "Used in..";
     }
