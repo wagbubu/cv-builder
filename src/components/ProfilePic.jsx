@@ -49,7 +49,7 @@ export default function ProfilePic({ type, obj, handleUpdate }) {
           ) : (
             <img
               className="w-64 rounded-lg shadow-2xl"
-              src="../assets/blankDP.webp"
+              src="https://storage.needpix.com/rsynced_images/blank-profile-picture-973460_1280.png"
             ></img>
           )}
         </div>
