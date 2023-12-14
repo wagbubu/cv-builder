@@ -27,7 +27,7 @@ export default function ProfilePic({ type, obj, handleUpdate }) {
           value={value}
           onChange={handleChange}
           type="text"
-          placeholder="Type here"
+          placeholder="Put Image Link Here.."
           className="input input-bordered input-secondary w-full max-w-xs"
         />
         <button className="ml-2 btn btn-secondary" type="submit">
@@ -49,7 +49,7 @@ export default function ProfilePic({ type, obj, handleUpdate }) {
           ) : (
             <img
               className="w-64 rounded-lg shadow-2xl"
-              src="src/assets/blankDP.webp"
+              src="../assets/blankDP.webp"
             ></img>
           )}
         </div>
